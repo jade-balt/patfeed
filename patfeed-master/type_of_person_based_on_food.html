@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>We can guess what type of person you are</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/odin-0.10.4.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-xl">
+      <nav class="navbar navbar-slideout-sm">
+        <a class="navbar-brand" href="#">PatFeed</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+
+        <div class="navbar-menu">
+          <button class="menu-dismiss" aria-label="Dismiss navigation">&times;</button>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="#">Tasty</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container-xl">
+    <main>
+
+      <div class="row">
+        <div class="col-lg-9">
+
+          <!-- Quiz begins here -->
+          <div class="meta">
+            <h1 class="quiz-title">Your food preferences will tell what type of person you are</h1>
+            <span class="tagline">Because who knew food could say so much?</span>
+            <span class="date">Posted on April 18, 2017 at 5:34 p.m.</span>
+          </div>
+
+          <div class="byline">
+            <img class="circle left" src="img/jade.jpg">
+            <span class="author-name">Jade B</span>
+            <span class="author-title">PatFeed Contributor</span>
+          </div>
+
+          <div class="clear"></div>
+
+          <form class="quiz">
+            <!-- Begin question #1-->
+            <div class="row">
+              <div class="col-xs-12">
+                  <h2 class="question">Choose an ice cream flavor</h2>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/vanillac.jpg">
+                    <input class="answer" type="radio" name="flavor" value="no_risk"> Vanilla
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/caramel.jpg">
+                    <input class="answer" type="radio" name="flavor" value="extra"> Caramel Core
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/straw.jpg">
+                    <input class="answer" type="radio" name="flavor" value="energetic"> Strawberry Cheesecake
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/choco.jpg">
+                    <input class="answer" type="radio" name="flavor" value="classical"> Chocolate
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <!-- End question #1-->
+
+            <!-- Begin question #2-->
+            <div class="row">
+              <div class="col-xs-12">
+                  <h2 class="question">Choose a fast food order</h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/burger.jpg">
+                    <input class="answer" type="radio" name="order" value="not_a_risk_taker"> Plain burger
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/nuggets.jpg">
+                    <input class="answer" type="radio" name="order" value="classical">Chicken Nuggets
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/salad.jpg">
+                    <input class="answer" type="radio" name="order" value="energetic"> Salad
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/sun.jpg">
+                    <input class="answer" type="radio" name="order" value="extra"> Cheeseburger and sundae
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #2-->
+
+
+            <!-- Begin question #3-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Choose a Starbucks drink</h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/tea.jpg">
+                    <input class="answer" type="radio" name="drink" value="energetic"> Green tea lemonade
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/coffee.jpg">
+                    <input class="answer" type="radio" name="drink" value="not_a_risk_taker">Just coffee
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/cin.jpg">
+                    <input class="answer" type="radio" name="drink" value="extra"> Cinnamon roll frappe
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/ice.jpg">
+                    <input class="answer" type="radio" name="drink" value="classical"> Iced coffee
+                  </label>
+                </div>
+            </div>
+          </div>
+            <!-- End question #3-->
+
+            <!-- Begin question #4-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Pick a cake </h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/german.jpg">
+                    <input class="answer" type="radio" name="cake" value="extra"> German Chocolate Cake
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/fun.jpg">
+                    <input class="answer" type="radio" name="cake" value="not_a_risk_taker">Funfetti Cake
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/angel.jpg">
+                    <input class="answer" type="radio" name="cake" value="energetic"> Angel Food Cake
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/marble.jpg">
+                    <input class="answer" type="radio" name="cake" value="classical"> Marble Cake
+                  </label>
+                </div>
+                </div>
+                </div>
+            <!-- End question #4-->
+
+            <!-- Begin question #5-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Choose a pizza topping  </h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/pep.jpg">
+                    <input class="answer" type="radio" name="topping" value="classical"> Pepperoni
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/bacon.jpg">
+                    <input class="answer" type="radio" name="topping" value="extra">Bacon
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/pine.jpg">
+                    <input class="answer" type="radio" name="topping" value="energetic"> Pineapple
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/cheese.jpg">
+                    <input class="answer" type="radio" name="topping" value="not_a_risk_taker"> Just cheese
+                  </label>
+                </div>
+
+            </div>
+          </div>
+            <!-- End question #5-->
+
+            <!-- Begin question #6-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Pick a type of sushi </h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/cali.jpg">
+                    <input class="answer" type="radio" name="sushi" value="not_a_risk_taker"> California Roll
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/volcano.jpg">
+                    <input class="answer" type="radio" name="sushi" value="extra">Volcano Roll
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/philly.jpg">
+                    <input class="answer" type="radio" name="sushi" value="classical"> Philly Roll
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/rain.jpg">
+                    <input class="answer" type="radio" name="sushi" value="energetic"> Rainbow Roll
+                  </label>
+                </div>
+
+            </div>
+          </div>
+            <!-- End question #6-->
+
+            <!-- Begin question #7-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Pick a meal from Chili's </h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/fish.jpg">
+                    <input class="answer" type="radio" name="chili" value="energetic">Fish tacos
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/chilis.jpg">
+                    <input class="answer" type="radio" name="chili" value="classical">Cheeseburger
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/rib.jpg">
+                    <input class="answer" type="radio" name="chili" value="extra"> Ribs
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/tender.jpg">
+                    <input class="answer" type="radio" name="sushi" value="energetic"> Chicken tenders
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #7-->
+
+            <!-- Begin question #8-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Pick a Japanese dish </h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/fugu.jpg">
+                    <input class="answer" type="radio" name="dish" value="energetic">Fugu (puffer fish)
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/temp.jpg">
+                    <input class="answer" type="radio" name="dish" value="classical">Ebi (shrimp/prawn tempura)
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/ramen.jpg">
+                    <input class="answer" type="radio" name="dish" value="not_a_risk_taker"> Shoyu (soy sauce ramen)
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/nigeri.jpg">
+                    <input class="answer" type="radio" name="dish" value="extra">Nigiri
+
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #8-->
+
+            <!-- Begin question #9-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">Pick a appetizer </h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/pot.jpg">
+                    <input class="answer" type="radio" name="appetizer" value="extra">Loaded Potato skins
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/wrap.jpg">
+                    <input class="answer" type="radio" name="appetizer" value="energetic">Lettuce wraps
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/nacho.jpg">
+                    <input class="answer" type="radio" name="appetizer" value="not_a_risk_taker"> Nachos
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/moz.jpg">
+                    <input class="answer" type="radio" name="appertizer" value="classical">Mozzarella sticks
+
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #9-->
+
+            <!-- Begin question #10-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="question">And finally, pick a dessert that was on the Great British Baking Show</h2>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/ecl.jpg">
+                    <input class="answer" type="radio" name="dessert" value="energetic">Lemon and Rasperry eclairs
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/entr.jpg">
+                    <input class="answer" type="radio" name="dessert" value="classcial">Chocolate mousse entreme
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/carrot.jpg">
+                    <input class="answer" type="radio" name="dessert" value="not_a_risk_taker"> Reduced sugar carrot cake
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-xs-4">
+                <div class="choice">
+                  <label>
+                    <img src="img/lava.jpg">
+                    <input class="answer" type="radio" name="dessert" value="extra">Chocolate volcanos
+
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #8-->
+
+
+
+
+
+
+
+
+            <input class="button-primary" type="button" onclick="checkIt()" value="Get your results">
+          </form>
+
+          <div id="result"></div>
+          <!-- End of quiz -->
+
+        </div>
+
+        <!-- Begin sidebar -->
+        <div class="col-lg-3">
+          <div class="news hide-md-down">
+            <h3>PatFeed News</h3>
+
+            <p><a href="#">Schools almost over, have you been studying for your finals?Most students are trying to stay stree free for these last weeks of school.</a></p>
+
+            <p><a href="#">The theatre department studnets can't wait to find out what next year's musical will be!Will you attend the meeting?.</a></p>
+
+            <p><a href="#">Girls soccer won state! After a great season of hard work everything paid off! Were you a good patriot and supported the team?</a></p>
+
+          </div>
+
+          <h3>Now Trending</h3>
+
+          <div class="row">
+            <div class="quiz-link">
+              <a href="shopping_spree.html">
+              <img src="img/spree.jpg"></a>
+              <a href="shopping_spree.html" >Pretend to go on a shopping spree and we'll guess your age</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="img/fant.jpg">
+              <h4>What fantasy world do you belong in?</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="img/am.jpg">
+              <h4>The hardest American Dad quiz you'll ever take</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="img/hor.jpg">
+              <h4>Could you survive a horror movie?</h4>
+            </div>
+          </div>
+        </div>
+        <!-- End sidebar -->
+
+      </div>
+    </main>
+
+    <footer>
+      <h3>More Buzz</h3>
+
+      <div class="row">
+        <!-- Begin clickbait headlines -->
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/ap.jpg">
+          <h4>Which Micheal Scott alter ego are you?</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/sum.jpg">
+          <h4>What are most kids planning on doing for their summer break in Greenville?</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/milk.jpg">
+          <h4>We know you zodiac sign based off of your Cookout milkshake preferences!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/eye.jpg">
+          <h4>This crazy new makeup trend has everybody in South Carolina talking!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/met.jpg">
+          <h4>This years best and worst Met Gala looks according to JL Mann!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/star.jpg">
+          <h4>Can you remember all these minor details in Star Wars?</h4>
+        </div>
+      <!-- End headlines-->
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- include any javascript below this line -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script src="js/odin-0.7.1.js"></script>
+  <script src="js/person_type.js"></script>
+
+</body>
+</html>
